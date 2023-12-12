@@ -48,10 +48,10 @@ rawdbs:
                         send-notification: false
           - rawtable-name: datapoints
             pipelines:
-                - source: ice-cream-api
-                  schedule: On trigger
-                  contacts:
-                      - name: Tudor Moldovan
-                        email: tudor.moldovan.maniu@accenture.com
-                        role: Bootcamp 16 Administrator
-                        send-notification: false
+              - source: ice-cream-api
+                schedule: On trigger
+                contacts:
+                  - name: Tudor Moldovan
+                    email: tudor.moldovan.maniu@accenture.com
+                    role: Bootcamp 16 Administrator
+                    send-notification: false
