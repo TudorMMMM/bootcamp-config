@@ -63,7 +63,7 @@ bootstrap:
                 idp-source-name: bootcamp-16-test-admin
               - cdf-group: cdf:all:owner
                 idp-source-id: d21a982d-a651-4e4c-a451-96fc66bb98d3
-                idp-source-name: bootcamp-01-test-all-owner
+                idp-source-name: bootcamp-16-test-all-owner
               - cdf-group: cdf:all:read
                 idp-source-id: 3ca42f5f-fb17-478d-b6a1-fbc225dbfbff
                 idp-source-name: bootcamp-16-test-all-read
