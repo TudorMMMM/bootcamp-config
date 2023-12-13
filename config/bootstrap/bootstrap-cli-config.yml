@@ -89,7 +89,7 @@ bootstrap:
           ns-nodes:
               - node-name: src:001:sap
                 description: Data from SAP
-              - node-name: src:001:opcua
+              - node-name: src:002:opcua
                 description: Data from OPCUA
         # HINT: Add another namespace below
         - ns-name: uc
@@ -100,7 +100,7 @@ bootstrap:
                 shared-access:
                     read:
                         - node-name: src:001:sap
-                        - node-name: src:001:opcua
+                        - node-name: src:002:opcua
 
 
 # de-facto standards for CDF CogniteClient and logger configuration.
