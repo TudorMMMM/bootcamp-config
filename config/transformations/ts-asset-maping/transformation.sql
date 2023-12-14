@@ -11,6 +11,6 @@ SELECT
   to_metadata(site,type, cycle_time, function, src, machine_type) AS metadata,
   description AS description,
   'from RAW' AS source,
-  Dataset_id('src:001:sap:ds') AS dataSetId
+  Dataset_id('uc:001:oee:ds') AS dataSetId
 FROM
   `uc:001:oee:ds`.assets
